@@ -3,7 +3,7 @@ from dog import Dog # Class to be tested.
 
 class DogTestCase(unittest.TestCase): # The testing class must inherit from the unittest.TestCase class.
 	'''
-	This class is used for testing methods in the Dog class, located in dog.py
+	This class is used for testing methods in the Dog class.
 	By convention, the name of the testing class should be related to what is being tested, with the suffix "TestCase" e.g DogTestCase.
 	The methods in this testing class must start with "test_", to allow the tests to be automatically executed when this file is run e.g. test_bark.
 	'''
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	unittest.main() # Runs the test cases within the testing class.
 	# The output would provide information on which tests passed, failed or produced an error.
 	# A passing test would be represented by a dot.
-	# A failing test would be represented by an 'F'.
+	# A failing test would be represented by an "F".
 	# A test that produced an error would be represented by an "E".
 	# If a test fails, fix the method(s) that caused the test to fail.
 
